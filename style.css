@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0;    
+    width:100vw;
+    height: 100vh;    
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 45vh;
+    background-color: #c7dddf;
+    font-size: x-large;
+    text-align: center;
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 20vh;
+    background-color: #9eb1b3;   
+        
+}
+.option{    
+    padding: 10px;
+    width: 45vw;
+    height: 40vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25%;
+}
+.option:hover{
+    background-color: lightgoldenrodyellow;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 5vh;
+    padding: 5px;
+    font-size: larger;
+    margin-top: 150px ;
+}
+.evaluate{
+    
+    background-color: #50DBB4;
+}
+.next{
+    color: white;
+    background-color: #BF3325;
+}
+
+@media screen and(max-width: 414px) {
+    .question-container {
+    display: flex;
+    justify-content: space-around; 
+    margin: 5px;
+    padding: 2px;
+    width: 100vw;
+    height: 60vh;
+    background-color: #9eb1b3;  
+    }
+
+    .panel{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .result{
+        margin: 5px;
+        padding: 5px;
+        width:40vw;
+        height: 20vh;
+        text-align: center;
+        font-size: 30px;
+
+}
+
+.navigation{
+    width: 50%;
+    height: 30vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.evaluate,.next{
+    width:20vw;
+    height: 5vh;
+    padding: 5px;
+    font-size: larger;
+    margin-top: 330px ;
+}
+
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+    width: 20vw;
+    height: 10vh;
+    background-color: #9eb1b3;   
+        
+}
+
+.option{    
+    padding: 10px;
+    width: 20vw;
+    height: 100vh;
+    font-size: larger;
+    background-color: lightskyblue;
+    border-radius: 25%;
+}
+
+
+
+}
+
