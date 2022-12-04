@@ -159,3 +159,9 @@ if (id < 3) {
 }
 
 })
+
+const btn = document.querySelector('#reload')
+
+btn.addEventListener('click', () => {
+    location.reload()
+});
