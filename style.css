@@ -104,10 +104,10 @@ body{
     margin: 20px;
     padding: 100px;
     width: 80vw;
-    height: 45vh;
+    height: 60vh;
     background-color: #c7dddf;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
       
 }
 .result{
@@ -117,7 +117,7 @@ body{
     height: 10vh;
     text-align: center;
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 320px;
       
 }
 .option-container{
@@ -132,13 +132,12 @@ body{
 }
 .option{    
     padding: 5px;
-    margin-left: 30px;
-    width: 50vw;
+    width: 42vw;
     height: 45vh;
     font-size: larger;
     background-color: lightskyblue;
     border-radius: 30%;
-    font-size: 15px;
+    font-size: 13px;
 }
 .option:hover{
     background-color: lightgoldenrodyellow;
@@ -166,7 +165,7 @@ body{
 }
 .next{
     color: white;
-    background-color: black;
+    background-color: rgb(212, 19, 19);
 }
 
 
