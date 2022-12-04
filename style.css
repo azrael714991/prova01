@@ -152,12 +152,13 @@ body{
   
 }
   
-.evaluate,.next{
+.evaluate,.next,.reload{
     width:30vw;
     height: 5vh;
     padding: 5px;
     font-size: larger;
     margin-top: 20px ;
+    margin: 10px;
 }
 .evaluate{
     
@@ -167,9 +168,9 @@ body{
     color: white;
     background-color: rgb(212, 19, 19);
 }
+.reload {
+    color: white;
+    background-color: rgb(97, 14, 97);
+}
 
 }
- 
-
-
-
