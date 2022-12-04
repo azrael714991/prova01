@@ -138,6 +138,7 @@ body{
     background-color: lightskyblue;
     border-radius: 30%;
     font-size: 13px;
+    cursor: pointer;
 }
 .option:hover{
     background-color: lightgoldenrodyellow;
@@ -159,6 +160,7 @@ body{
     font-size: larger;
     margin-top: 20px ;
     margin: 10px;
+    cursor: pointer;
 }
 .evaluate{
     
